@@ -10,3 +10,4 @@ def test_dividir():
     assert dividir(10, 2) == 5
     with pytest.raises(ValueError):
         dividir(10, 0)
+
