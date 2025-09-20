@@ -10,6 +10,6 @@ def multiplicar (a, b):
     return a * b
 
 def subtrair (a, b):
-    if b == 0:
+    if b > a:
         raise ValueError ("Resultado negativo!")
     return a - b

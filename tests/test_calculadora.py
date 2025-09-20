@@ -11,3 +11,12 @@ def test_dividir():
     with pytest.raises(ValueError):
         dividir(10, 0)
 
+
+def test_multiplicar():
+    assert multiplicar(2, 5) == 10
+    assert multiplicar(4, 1) == 4
+
+def test_subtrair():
+    assert subtrair(6, 2) == 4
+    with pytest.raises(ValueError):
+        subtrair(4, 9)
