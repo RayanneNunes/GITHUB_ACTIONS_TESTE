@@ -13,3 +13,4 @@ def subtrair (a, b):
     if b > a:
         raise ValueError ("Resultado negativo!")
     return a - b
+#
